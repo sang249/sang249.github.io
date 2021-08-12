@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
+        title: 'He luu em iu!',
+        text: 'Anh có điều muốn hỏi, nhớ trả lời thật lòng đó!',
         imageUrl: '../img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu đẹp trai vl :<<<<<<< ";
+    var text = " Tại vì anh đẹp trai vl đó, em không cưỡng lại được :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -114,15 +114,15 @@ $('#yes').click(function() {
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho tớ <3'
+        confirmButtonText: 'Gửi cho anh iu <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: 'Dạ anh ew <3',
                 background: '#fff url("../img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Anh biết ngay mà ^^ Yêu em 300.000',
+                text: "Hi vọng chúng mình sẽ sớm được gặp nhau, để anh còn dắt em đi chơi nữa :))) Quay lại mess nói chuyện với anh nào <3 ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';
